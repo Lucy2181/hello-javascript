@@ -1,0 +1,24 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="3`t$whzC-v@A2?~DvVhB" x="0" y="0"><comment>Ok, this is the "forever" block
+It makes the code inside of it run in a lloop and over again
+Every open bracket '[' or parenthesis  '(' needs to be closed )]</comment><statement name="HANDLER"><block type="device_show_leds" id="v*`{|I7s(VD`dWQK]Hf."><field name="LEDS">`
+        . . # . . 
+        . # . # . 
+        # . # . # 
+        . # . # . 
+        . . # . .
+        `</field><comment>this is "showLeds" block
+It reads the text (..#..) to figure out which LED is in.</comment><next><block type="device_show_leds" id="^cw{d!/G%j|5NgaHC$U1"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="tA|045Sb=90aM*NR;-=x"><field name="LEDS">`
+        . # . # . 
+        # . # . # 
+        . # . # . 
+        # . # . # 
+        . # . # .
+        `</field><comment>turning on a few LEDs
+This is the second "show leds" block.
+Something LEDs are off so it inly contains ?.? Characters.</comment></block></next></block></next></block></statement></block></xml>
